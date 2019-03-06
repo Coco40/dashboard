@@ -33,7 +33,7 @@ if(!empty($_SESSION)){
         include('view/footer_dashboard.php');               
     }
     elseif($_GET['p']=="users"){
-        $pageTitle="Liste des utilisateurs";
+        $pageTitle="Liste des utilisateurs";cd
         // HTML 
         include('view/head_table.php');          
         include('view/topbar.php');    
